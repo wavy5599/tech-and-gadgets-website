@@ -37,9 +37,7 @@
   p {
     color: black;
   }
-  .menu-icon {
-    display: none;
-  }
+  
   .container {
     max-width: 1300px;
     margin: auto;
@@ -53,7 +51,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
-
+  .menu-icon {
+    display: none; 
+  }
+  
   .col-2 {
     flex-basis: 50%;
     min-width: 300px;
@@ -62,6 +63,7 @@
   .col-2 img {
     max-width: 100%;
     padding: 50px 0;
+    display: none;
   }
 
   .col-2 h1 {
@@ -297,10 +299,6 @@ footer p {
     font-size: 14px;
     color: white;
 }
-
-
-
-
   /*---- media query for menu------*/
 
   @media only screen and (max-width: 800px) {
@@ -329,9 +327,7 @@ footer p {
     }
   
   }
-
   /*---- media query for menu------*/
-
   @media only screen and (max-width: 800px) {
     nav ul {
       position: absolute;
@@ -356,7 +352,6 @@ footer p {
       cursor: pointer;
     }
   }
-
   /*---- media query for small 600 screen size------*/
   @media only screen and (max-width: 600px) {
     .row {
