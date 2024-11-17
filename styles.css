@@ -54,6 +54,10 @@
   .menu-icon {
     display: none; 
   }
+  .home-page {
+    width: 400px;
+    margin-bottom: 50px;
+  }
   
   .col-2 {
     flex-basis: 50%;
