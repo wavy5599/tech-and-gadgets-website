@@ -6,16 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <title>Contact Us</title>
-
-    <!--CSS Style Sheet Won't Work with absolute paths. Problem was solved by adding CSS embedded in HTML file  -->
-    <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="/Pages/Stylesheets/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet"
+   <link rel="stylesheet"
     href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css
     >
-
-    <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
     <div class="header">
@@ -35,94 +31,39 @@
           </nav>
 
           <img
-            src="menu.png"
+            src="Pages-images/menu copy.png"
             class="menu-icon"
             onclick="menutoggle()"
             alt="#"
           />
         </div>
 
-
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form action="process_form.php" method="POST">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  
+              <label for="question">Your Question:</label>
+              <textarea id="question" name="question" rows="5" placeholder="Write your question here..." required></textarea>
+  
+              <button type="submit">Submit</button>
+          </form>
+      </div>
        
 
-            <div class="text-adjust">
-                
-
-                <h1>Contact Us</h1>
-              </header>
-              <section>
-                  <h2>Get in Touch</h2>
-                  <p>Have questions or feedback? Fill out our form and we will get back to you within 24 hours</p>
-                 <div class="form-container">
-                 <form action="">
-                  <label for="name">Name</label>
-                  <input type="text" required>
-                  <label for="email" >Email</label>
-                  <input type="email" required>
-                  <label for="comments"></label>
-                  <textarea name="comments" id="">Comments</textarea>
-                 <input class="submit-btn" type="submit">
-                 </form>
-                </div>
-
-
-
-
-                 <a href="mailto:techandgadets005@gmail.com">
-                  <button>
-                    Contact Us
-                  </button>
-                </a>
-                 
-
-
-                
-            </div>
-
-            
-
-
-
+           
         
         
 
     <!------footer------>
   
-          <div class="footer">
-            <div class="container">
-              <div class="row">
-                <div class="footer-col-1">
-                  <h3>Thanks For Checking Us Out!</h3>
-                  <p>We Hope You Enjoy Our Products <p>
-                  <div class="app-logo">
-                    
-                  </div>
-                </div>
-                <div class="footer-col-2">
-                 
-                 
-                </div>
-                <div class="footer-col-3">
-                  <h3>Follow Us</h3>
-                  <ul>
-                    <li>Instagram</li>
-                    <li>X</li>
-                    <li>Facebook</li>
-                    <li>Pinterest</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <p class="copyright">
-              Copyright 2024 by David Morris. All rights reserved.
-            </p>
-          </div>
-      <hr />
-      <p>
-        Copyright 2024 by David Morris. All rights reserved.
-      </p>
-    </div>
+      
+      
+  
     <!----javascript baby for toggle menu-->
     <script>
       var MenuItems = document.getElementById("MenuItems");
