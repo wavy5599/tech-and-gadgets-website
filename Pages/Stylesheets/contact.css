@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgb(233, 249, 255);
 }
 
 .navbar {
@@ -53,7 +54,7 @@ h2, p {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background: #fff;
+  background: #b3eafa;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
