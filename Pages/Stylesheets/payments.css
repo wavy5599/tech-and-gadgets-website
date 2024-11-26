@@ -36,7 +36,9 @@ a {
 p {
   color: black;
 }
-
+.menu-icon {
+  display: none;
+}
 
 
 .header {
