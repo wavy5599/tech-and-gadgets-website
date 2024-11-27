@@ -40,22 +40,18 @@ p {
   display: none;
 }
 
-
 .header {
       background: radial-gradient(lightblue, whitesmoke);
     }
-
 
   h2 {
      margin-left: 10px;
    }
 
-
    p {
      margin-left: 10px;
      margin-bottom: 10px;
    }
-
 
    h1 {
      margin-bottom: 10px;
@@ -95,7 +91,6 @@ footer h2 {
 .social-icons a:hover {
   color: #007BFF;
 }
-
 
 /*---- media query for menu------*/
 

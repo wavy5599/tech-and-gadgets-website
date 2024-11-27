@@ -292,13 +292,6 @@
     width: 140px;
   }
 
-  .footer hr {
-    border: none;
-    background: #b5b5b5;
-    height: 1px;
-    margin: 20px 0;
-  }
-
   .copyright {
     text-align: center;
   }
@@ -403,12 +396,6 @@
         text-align: center;
     }
   
-
-
-
-
-
-
   /*---- media query for menu for less then 600 px for mobile viewing------*/
 
   @media only screen and (max-width: 800px) {
