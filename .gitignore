@@ -10,3 +10,5 @@ null.html
 /PHP/send_message.php
 
 /.vscode/
+
+.env

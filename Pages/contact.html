@@ -31,7 +31,6 @@
               <li><a href="../Pages/payments.html">Payments</a></li>
             </ul>
           </nav>
-
           <img
             src="Pages-images/menu copy.png"
             class="menu-icon"
@@ -39,10 +38,10 @@
             alt="#"
           />
         </div>
-
         <div class="contact-form">
           <h2>Contact Us</h2>
-          <form onsubmit="sendEmail(); reset(); return false;">
+          <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="fc46354a-fc16-4272-b00f-f7b76ca733d1">
               <label for="name">Your Name:</label>
               <input type="text" id="name" name="name" placeholder="Enter your name" required>
               <label for="email">Your Email:</label>
